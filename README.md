@@ -17,7 +17,9 @@ Use formulas to answer each question. Unless otherwise stated, fill in your answ
 
 3. a. Create a new column to the right of the "Number of Motor Vehicles" column called "Single or Multiple". This column should contain "Single" if the number of vehicles is 1 and "Multiple" if it involved more than one vehicle.  
 b. Are there any rows that involved zero vehicles? How many? Make sure that your formula accounts for these cases.  
-c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?  
+c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find? 
+	There are a lot of descriptions that sound like there were cars involved even though it says 0.
+ 
 d. What percentage of crashes are single-car?
 
 4. How many accidents occurred which are hit and run and had at least one injury?
@@ -28,8 +30,11 @@ b. Go to the "Collision Types" sheet and fill in the table to find the total num
 6. Add four new columns, Month, Year, Hour, and Weekday to the right of the Date and Time column. Use the [TEXT function](https://support.microsoft.com/en-us/office/text-function-20d5ac4d-7b94-49fd-bb38-93d29371225c) to extract out the Month, Year, Hour, and Weekday from the "Date and Time" column.  
 
 7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Again, write a single formula and copy it down the table. Do you see anything unusual? What might be the explanation for this?
+	Most accidents occur after midnight and during rush hour.  There are probably more drunk drivers at after midnight and 	during rush hour there is probably just more volume.
 
-8. Do the same for the year and day of the week. What stands out?
+8. Do the same for the year and day of the week. What stands out?  
+	There were much fewer accidents during 2020, 2021, and 2022.  2020 and 2021 are probably due to COVID-19 and 2022 is 	probably because the data set stops at 6/21/2022 so it is not a full year.
+	There are more accidents on weekdays and fewer on Saturday and fewest on Sunday.  This is likely due to volume.
 
 9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
 
