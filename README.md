@@ -26,11 +26,12 @@ d. What percentage of crashes are single-car?
 
 5. a. What is the overall average number of injuries?  
 b. Go to the "Collision Types" sheet and fill in the table to find the total number of crashes, average number of injuries, and total number of injuries per collision type. For each calculation, write a single formula and copy it down the table. What do you find? (Hint: If you're not sure how to answer this question, revisit the "Conditional functions and lookups" chapter of [Data Analysis in Spreadsheets](https://app.datacamp.com/learn/courses/data-analysis-in-spreadsheets).)
+Front to Rear seems to be the most common which would be fender benders.  Least common is rear-to-rear which probably only happens in parking lots.
 
 6. Add four new columns, Month, Year, Hour, and Weekday to the right of the Date and Time column. Use the [TEXT function](https://support.microsoft.com/en-us/office/text-function-20d5ac4d-7b94-49fd-bb38-93d29371225c) to extract out the Month, Year, Hour, and Weekday from the "Date and Time" column.  
 
 7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Again, write a single formula and copy it down the table. Do you see anything unusual? What might be the explanation for this?
-	Most accidents occur after midnight and during rush hour.  There are probably more drunk drivers at after midnight and 	during rush hour there is probably just more volume.
+	Most accidents occur after midnight and during rush hour.  There are probably more drunk drivers at after midnight and 	during rush hour there is probably just more volume.  At midnight it could be due to shift changes as well.  Or maybe if 	there is no time entered then it defaults to midnight.
 
 8. Do the same for the year and day of the week. What stands out?  
 	There were much fewer accidents during 2020, 2021, and 2022.  2020 and 2021 are probably due to COVID-19 and 2022 is 	probably because the data set stops at 6/21/2022 so it is not a full year.
